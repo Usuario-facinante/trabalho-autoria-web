@@ -8,3 +8,11 @@ body {background-color: black;
 }
 h1,h2,h3, li, ul, blockquote, q {color: white
 }
+#dados {
+    color: #BDBDBD;
+    background-color: #222;
+    padding: 20px;
+}
+h1, h2 {
+    text-align:center;
+}
