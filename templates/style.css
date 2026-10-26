@@ -1,12 +1,22 @@
-p {text-align: justify; color:white
+p {text-align: justify;
+    color:white;
 }
-img {width: 30%;height: 20%;
+img {width: 30%;
+    height: 20%;
 }
-table, td, th {border:1px solid black; color: white
+img:hover {
+    transition: 0.5s;
+    transform: translateY(-10);
+    width: 25%;
+    height: 15%;
+}
+
+table, td, th {border:1px solid black;
+                color: white
 }
 body {background-color: black;
 }
-h1,h2,h3, li, ul, blockquote, q {color: white
+h1, h2,h3, li, ul, blockquote, q {color: white
 }
 #dados {
     color: #BDBDBD;
@@ -15,4 +25,8 @@ h1,h2,h3, li, ul, blockquote, q {color: white
 }
 h1, h2 {
     text-align:center;
+}
+footer {
+    align-items: center;
+    text-align: center;
 }
