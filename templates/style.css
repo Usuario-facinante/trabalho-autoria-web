@@ -10,6 +10,12 @@ img:hover {
     width: 25%;
     height: 15%;
 }
+img:not(:hover) {
+    transition: 0.5s;
+    transform: translateY(-10);
+    width: 30%;
+    height: 20%;
+}
 
 table, td, th {border:1px solid black;
                 color: white
@@ -29,4 +35,9 @@ h1, h2 {
 footer {
     align-items: center;
     text-align: center;
+}
+#aberturas_iniciais {
+    img {
+        display: none;
+    }
 }

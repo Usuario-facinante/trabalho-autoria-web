@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png"
     href="imagens/rei.png">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -31,12 +32,16 @@
                 <p>O jogo de xadrez obiamente tem dois lados, o das negras e das brancas. As brancas, tem a obrigatoriedade de jogar primeiro, trazendo a tona as aberturas, existe o das brancas e das negras, as brancas de ataque e as negras de defesa geralmente. O tabuleiro em si, é composto assim:</p>
                 <img src="imagens/tabuleiro_de_xadrez.jpg" alt="xadrez">
                 <p>como pode ver, é formado por casas pretas e brancas. As aberturas como eu havia falado anteriormente, é muito diversificado, há diversas formas de efetuar os primeiros lances, sendo os mais famosos:</p>
-                <ol>
-                    <li>E4</li>
-                    <li>D4</li>
-                    <li>F4</li>
-                    <li>E3</li>
-                </ol>
+                <div id="aberturas_iniciais">
+                    <button onclick="E4_()"; id = "E4">E4</button><br>
+                    <img src="imagens/tabuleiro_de_xadrez.jpg" alt="E4" onclick="imagem_E4()">
+                    <button onclick="D4_()" id="D4">D4</button>
+                    <img src="imagens/" alt="D4" onclick="imagem_D4()">
+                    <button onclick="F4_()" id="F4">F4</button>
+                    <img src="imagens/" alt="F4" onclick="imagem_F4()">
+                    <button onclick="E3_()" id="E3">E3</button>
+                    <img src="imagens/" alt="E3" onclick="imagem_E3()">
+                </div>
             </section>
             <section>
                 <p>Deve estar se pergunntando o que são essas denominações, essas coisas são aquilo que nos ajuda a identificar onde tal "casa" é. Cada peça anda de determinada forma, é o que iremos ver a seguir.</p>
