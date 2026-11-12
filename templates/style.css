@@ -22,7 +22,7 @@ table, td, th {border:1px solid black;
 }
 body {background-color: black;
 }
-h1, h2,h3, li, ul, blockquote, q {color: white
+h1, h2,h3, li, ul, blockquote, q {color: teal
 }
 #dados {
     color: #BDBDBD;
@@ -40,4 +40,29 @@ footer {
     img {
         display: none;
     }
+}
+.sidebar {
+    width: 250px;
+    background-color: midnightblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    display:flex;
+    height: 100%;
+}
+
+.naosidebar {
+    overflow-y: auto;
+    flex: 1;
+    padding:20px;
+
+}
+.sidebar a {
+    color:white;
+    background-color: teal;
+    text-decoration: none;
+    padding: 10px;
+    margin:5px;
 }
