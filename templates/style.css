@@ -21,6 +21,7 @@ table, td, th {border:1px solid black;
                 color: white
 }
 body {background-color: black;
+    font-size: 150%;
 }
 h1, h2,h3, li, ul, blockquote, q {color: white
 }
@@ -47,6 +48,7 @@ footer {
     color: white;
     display: flex;
     flex-direction: column;
+    font-size: 75%;
 }
 .container {
     display:flex;
@@ -65,4 +67,7 @@ footer {
     text-decoration: none;
     padding: 10px;
     margin:5px;
+}
+.sidebar a:hover {
+    background-color:rgb(8, 90, 90);
 }
