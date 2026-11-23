@@ -1,9 +1,11 @@
-function E4() {
-    imagem = document.getElementById(E4_imagem)
-    if (getComputedStyle(imagem).display == "none") {
-        imagem.style.display = "block";
+const sidebar = document.getElementById("sidebar")
+let num = 0
+function alterar_vizu() {
+    if (num % 2 === 0) {
+    sidebar.classList.add("invisivel")
     }
     else {
-        imagem.style.display = "none"
+        sidebar.classList.remove("invisivel")
     }
+    num++
 }

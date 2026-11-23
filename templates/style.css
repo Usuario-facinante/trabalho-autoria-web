@@ -44,7 +44,7 @@ footer {
         display: none;
     }
 }
-.sidebar {
+#sidebar {
     width: 250px;
     background-color:  rgb(28, 42, 60);
     color: white;
@@ -63,19 +63,30 @@ footer {
     flex: 1;
 
 }
-.sidebar a {
+#sidebar a {
     color:white;
     text-decoration: none;
     padding: 10px;
     margin:5px;
 }
-.sidebar a:hover {
+#sidebar a:hover {
     background-color: rgb(35, 100, 100);
 }
 h1 {
     text-decoration: underline;
     padding:10px;
 }
-.sidebar h3 {
+#sidebar h3 {
     text-align: center;
+}
+#botao {
+    cursor: pointer;
+    background-color:rgb(28, 42, 60);
+    width: 25px;
+    font-size:25px;
+    padding: 10px, 10px;
+    height:5%;
+}
+#sidebar.invisivel {
+    display: none;
 }
