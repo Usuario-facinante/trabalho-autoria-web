@@ -87,6 +87,9 @@ h1 {
     padding: 10px, 10px;
     height:5%;
 }
-#sidebar.invisivel {
+.invisivel {
     display: none;
+}
+.preto {
+    color: brown;
 }
