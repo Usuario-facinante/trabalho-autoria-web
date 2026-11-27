@@ -4,7 +4,7 @@ p {text-align: justify;
 img {width: 30%;
     height: 20%;
     border: 5px solid teal;
-    border-style: inset;
+   
 }
 img:hover {
     transition: 0.5s;
@@ -22,7 +22,7 @@ img:not(:hover) {
 table, td, th {border:1px solid black;
                 color: white
 }
-body {background-color: black;
+body {background-color:rgb(9, 14, 24); 
     font-size: 150%;
 }
 h1, h2,h3, li, ul, blockquote, q {color: white
@@ -71,6 +71,8 @@ footer {
 }
 #sidebar a:hover {
     background-color: rgb(35, 100, 100);
+    transition: 0.3s;
+    border-radius: 5px;
 }
 h1 {
     text-decoration: underline;
@@ -86,8 +88,10 @@ h1 {
     font-size:25px;
     padding: 10px, 10px;
     height:5%;
+    position: fixed;
+    z-index: 1;
 }
-.invisivel {
+#sidebar.invisivel {
     display: none;
 }
 .preto {
